@@ -1,0 +1,56 @@
+[
+  {
+    "id": "strong_all_dimensions",
+    "note": "Concrete behaviour on every dimension.",
+    "participant_turns": [
+      "Two weeks before launch the client moved the deadline up by a month. I immediately re-planned the sprint and cut two features.",
+      "I had to learn a new deployment tool fast, and I stopped using our old manual release checklist.",
+      "I told the team the same day and we synced every morning until launch. I walked the stakeholders through the trade-offs.",
+      "Looking back, I would raise scope risks in the first week instead of the third."
+    ],
+    "must_score": ["response_to_change", "learning_agility", "collaboration_under_change", "reflection"],
+    "must_abstain": []
+  },
+  {
+    "id": "thin_vague_answers",
+    "note": "Short, non-specific answers: the instrument should abstain, not guess.",
+    "participant_turns": [
+      "Things changed a lot.",
+      "It was fine.",
+      "Yeah, it worked out."
+    ],
+    "must_score": [],
+    "must_abstain": ["response_to_change", "learning_agility", "collaboration_under_change", "reflection"]
+  },
+  {
+    "id": "self_description_without_behaviour",
+    "note": "Claims about traits without any described behaviour. Should not earn behavioural scores.",
+    "participant_turns": [
+      "I am very adaptable and I have always been great with change.",
+      "People tell me I am flexible and easygoing.",
+      "I just roll with whatever comes."
+    ],
+    "must_score": [],
+    "must_abstain": ["response_to_change", "learning_agility", "collaboration_under_change", "reflection"]
+  },
+  {
+    "id": "collaboration_only",
+    "note": "Only collaboration is evidenced; the others must abstain.",
+    "participant_turns": [
+      "When the roadmap changed I told the team right away and we synced with product every day for a week.",
+      "I shared the new plan with the stakeholders and they signed off."
+    ],
+    "must_score": ["collaboration_under_change"],
+    "must_abstain": ["learning_agility", "reflection"]
+  },
+  {
+    "id": "reflection_only",
+    "note": "Only reflection is evidenced.",
+    "participant_turns": [
+      "The project was cancelled after months of work. It was disappointing.",
+      "Looking back, I would have asked for clearer success criteria at the start. That is the main lesson."
+    ],
+    "must_score": ["reflection"],
+    "must_abstain": ["learning_agility", "collaboration_under_change"]
+  }
+]
