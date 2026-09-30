@@ -10,7 +10,7 @@ use an LLM (OpenAI or Anthropic, chosen by `LLM_PROVIDER`) through forced functi
 schema-shaped. I ran and evaluated it end to end with OpenAI `gpt-4o-mini`. The Anthropic provider is implemented
 but I have not run it against the live API.
 
-**Live demo:** https://savo-prototype.vercel.app/)
+**Live demo:** https://savo-prototype.vercel.app/
 
 ## Run it
 
